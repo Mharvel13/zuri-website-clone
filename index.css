@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 2px solid purple; */
+}
+
+a{
+    color: orangered;
+    text-decoration: none;
+}
+
+header{
+    background-image: url('images/hero-bg.svg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    padding: 80px 0 150px 0;
+}
+
+
+.showcase{
+    text-align: center;
+    padding: 20px;
+}
+
+.showcase h1{
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.showcase p{
+    width: 100%;
+    margin: 0 auto;
+    line-height: 1.9rem;
+    font-size: 20px;
+    padding: 20px 10px;
+}
+
+.header-links{
+    margin: 20px 0;
+    padding: 40px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.header-links a{
+    font-size: 20px;
+    padding: 15px 30px;
+    border: 2px solid orangered;
+    margin: 0 15px;
+    
+}
+
+.training-link,
+.talent-link:hover{
+    background-color: orangered;
+    color: white;
+}
+
+.talent-link,
+.training-link:hover{
+    background-color: white;
+    color: orangered;
+}
+
+.zuri-offers{
+    padding: 10px 100px;
+}
+
+.by-zuri{
+    margin: 100px 0 0 0;
+    text-align: center;
+
+}
+
+.by-zuri h3{
+    font-size: 15px;
+    margin: 10px 0;
+}
+
+.by-zuri p{
+    font-size: 20px;
+    margin: 20px 0;
+    line-height: 2rem;
+
+}
+
+.boxes-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 30px;
+
+   
+}
+
+.box{
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.box p{
+    line-height: 2rem;
+}
+
+.box-link{
+    margin: 30px 0  0px  0;
+}
+
+footer{
+    margin: 100px 0 0 50px;
+    padding: 20px 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.footer-container h3,
+.footer-container p{
+    margin: 20px 0;
+    /* font-size: 20px; */
+}
+.copyright{
+    width: 100%;
+    margin: 100px 0;
+    align-self: center;
+
+}
+
+.copyright p{
+    text-align: center;
+    margin: 20px 0;
+    font-size: 20px;
+
+}
